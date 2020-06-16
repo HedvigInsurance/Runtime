@@ -5,6 +5,7 @@ let package = Package(
     products: [
         .library(
             name: "Runtime",
+            type: .dynamic,
             targets: ["Runtime"])
         ],
     targets: [
