@@ -129,8 +129,8 @@
 /* Begin PBXFileReference section */
 		22288B5B249AA93E00D9B838 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22288B5C249AA96400D9B838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224A42BD249B709D0077286C /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		OBJ_11 /* CRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRuntime.h; sourceTree = "<group>"; };
-		OBJ_12 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Users/wes/Projects/Runtime/Sources/CRuntime/include/module.modulemap; sourceTree = "<group>"; };
 		OBJ_14 /* Runtime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Runtime.h; sourceTree = "<group>"; };
 		OBJ_16 /* DefaultValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultValue.swift; sourceTree = "<group>"; };
 		OBJ_17 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
@@ -230,7 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_11 /* CRuntime.h */,
-				OBJ_12 /* module.modulemap */,
+				224A42BD249B709D0077286C /* module.modulemap */,
 			);
 			path = include;
 			sourceTree = "<group>";
