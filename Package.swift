@@ -8,6 +8,11 @@ let package = Package(
             type: .dynamic,
             targets: ["Runtime"])
         ],
+        .library(
+            name: "CRuntime",
+            type: .dynamic,
+            targets: ["CRuntime"])
+        ],
     targets: [
         .target(
             name: "Runtime",
