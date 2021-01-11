@@ -1,11 +1,10 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.3
 import PackageDescription
 let package = Package(
     name: "Runtime",
     products: [
         .library(
             name: "Runtime",
-            type: .dynamic,
             targets: ["Runtime"])
         ],
     targets: [
